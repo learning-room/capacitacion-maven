@@ -7,7 +7,7 @@ Se vera que si nosotros queremos realizar toda una libreria para solucionar este
 En una siguiente etapa y ya logrado el objetivo de crear de la aplicación nos encontramos con un pequeño problema el cual es de crear un solo archivo ejecutable para lograr transportar nuestra aplicación por los lugares donde queramos. Para ello hacemos uso de una segunda funcionalidad de maven que es la de manipular las distintas etapas de creacion de paquetes a traves del elemento **build** al cual si hacemos uso de uno de los plugins de packaging de maven logramos crear un archivo standalone y exportable de nuestro proyecto. 
 
 ### Ejercicios
-*Creando una nueva rama con su nombre (de esta manera: **clase1-${tu.nombre}**) resuelva los siguientes items en este documento*
+*Creando una nueva rama con su nombre (ejemplo: **gemma**) resuelva los siguientes items en este documento*
 * Haciendo uso de la clase **Scanner** popular los valores de una instancia de la clase persona a traves de consola. 
 * Agregar un nuevo atributo a la clase persona (el que se le ocurra :P) y transformarlo nuevamente
 * ¿Que es el elemento **denendencie** de maven y para que sirve?
