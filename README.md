@@ -1,4 +1,4 @@
-# Capacitacion Maven
+# Capacitacion Maven 
 Este repositorio nos acompañara en toda etapa de nuestra formación en maven. La idea es ir detectando problemas comunes y resolverlos con fundamentos teoricos pero mas que nada practicos. 
 ## Clase 1 - Fundamentos
 Se inicia con la base de maven conociendo dos funcionalidades en las cuales maven es sobresaliente. Una es el manejo de dependencias y la segunda el armado de paquetes.
