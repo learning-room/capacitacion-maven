@@ -13,4 +13,10 @@ En una siguiente etapa y ya logrado el objetivo de crear de la aplicación nos e
 * ¿Que es el elemento **denendencie** de maven y para que sirve?
 * ¿Que es el elemento **build** dentro de maven y para que sirve?
 * ¿Que es el elemento **dependencyManagment** y para que sirve? ¿Por qué se puede dar que haya conflictos entre dependencias?
+## Clase Final - Multimodulo
+Se vio en clase la potencia de maven al crear un proyecto con multiples modulos. Generalizacion de proyectos.
+
+### Ejercicios
+* Haciendo uso de lo visto hasta el momento, tranformar el proyecto que se esta desarrollando hasta el momento y agregar un pom padre con dos modulos. El primer modulo debe tener como dependencia a jackson y debe proveer una clase con un metodo estatico que transforma a json una instancia de la clase persona, el segundo modulo solo debe tener la clase con el metodo main, con la logica ya realizada pero consumiendo el metodo estatico de la clase creada en el primer modulo. 
+**Tip: Para realizar esto, hay que REFACTORIZAR**
 
