@@ -1,9 +1,11 @@
 package com.cima.capacitacion.maven;
 
+
 public class Persona {
     private String nombre;
     private String apellido;
     private int edad;
+    private String direccion;
 
     public String getNombre() {
         return nombre;
@@ -28,4 +30,10 @@ public class Persona {
     public int getEdad() {
         return edad;
     }
+
+    public void setDireccion(String direccion){ this.direccion = direccion;}
+    public String getdireccion() { return direccion;}
+
+
+
 }

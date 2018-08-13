@@ -14,3 +14,19 @@ En una siguiente etapa y ya logrado el objetivo de crear de la aplicación nos e
 * ¿Que es el elemento **build** dentro de maven y para que sirve?
 * ¿Que es el elemento **dependencyManagment** y para que sirve? ¿Por qué se puede dar que haya conflictos entre dependencias?
 
+####Respuestas
+
+Dependencia: Son componentes de software que se  necesita  incluir en un proyecto (libs, jars, ears, zips, etc.).
+Sirve para que el proyecto compile.
+
+Build: 
+Maven tiene una arquitectura muy modular, está construido mediante plugins. 
+Sirve para definir en que fase ejecuto determinado paquete. Entonces maven va ejecutando fases del build y en cada una de estas se meten los plugins para hacer cosas como compilar, generar código.
+
+DependecyManager: Permite consolidar y centralizar la administración de versiones de dependencia.
+Esto es especialmente útil cuando tiene un conjunto de proyectos (es decir, más de uno) que hereda un elemento primario común.
+
+Sirve para definir una versión estándar de un artefacto para usar en múltiples proyectos.
+
+Hay conflicto de dependencia, cuando una dependencia esta incluida en mas de un proyecto y la misma tiene varias versiones.
+
