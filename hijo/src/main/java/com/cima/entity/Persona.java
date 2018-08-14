@@ -1,7 +1,7 @@
-package com.cima.capacitacion.maven;
-
+package com.cima.entity;
 
 public class Persona {
+
     private String nombre;
     private String apellido;
     private int edad;
@@ -33,7 +33,5 @@ public class Persona {
 
     public void setDireccion(String direccion){ this.direccion = direccion;}
     public String getdireccion() { return direccion;}
-
-
 
 }
