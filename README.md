@@ -20,7 +20,7 @@ Se vio en clase la potencia de maven al crear un proyecto con multiples modulos.
 * Haciendo uso de lo visto hasta el momento, tranformar el proyecto que se esta desarrollando hasta el momento y agregar un pom padre con dos modulos. El primer modulo debe tener como dependencia a jackson y debe proveer una clase con un metodo estatico que transforma a json una instancia de la clase persona, el segundo modulo solo debe tener la clase con el metodo main, con la logica ya realizada pero consumiendo el metodo estatico de la clase creada en el primer modulo. 
 **Tip: Para realizar esto, hay que REFACTORIZAR**
 
-####Respuestas
+#### Respuestas
 
 Dependencia: Son componentes de software que se  necesita  incluir en un proyecto (libs, jars, ears, zips, etc.).
 Sirve para que el proyecto compile.
